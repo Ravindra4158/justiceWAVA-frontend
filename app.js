@@ -8,7 +8,7 @@
 /* ---- API Base URL ---- */
 // In production this will be same-origin (served by Express)
 // In development, open index.html via the server: http://localhost:3000
-const API = '';  // empty = same origin; change to 'http://localhost:3000' if testing separately
+const API = 'https://justicewava.onrender.com';  // empty = same origin; change to 'http://localhost:3000' if testing separately
 
 /* ---- Mobile Menu ---- */
 function toggleMobile() {
